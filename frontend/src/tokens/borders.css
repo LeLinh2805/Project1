@@ -1,0 +1,28 @@
+:root {
+  /* Bo góc hiện đại mềm mại cho toàn bộ ứng dụng */
+  --ma-radius: 8px;
+  --ma-radius-sm: 6px;
+  --ma-radius-md: 10px;
+  --ma-radius-lg: 14px;
+  --ma-radius-xl: 18px;
+  --ma-radius-full: 9999px;
+
+  --ma-border-width: 1px;
+  --ma-border-width-strong: 1.5px;
+  --ma-border-width-rule: 2px;   /* gạch dưới cụm số liệu */
+
+  --ma-icon-stroke: 1.6px;
+  --ma-icon-size: 16px;
+  --ma-icon-viewbox: 16;
+
+  /* Nhấn trạng thái ở đáy thẻ phòng */
+  --ma-flag-inset: inset 0 -3px 0;
+  /* Nhấn mục menu đang chọn */
+  --ma-nav-active-inset: inset 3px 0 0;
+
+  /* Bóng đổ mềm cho thẻ & nổi khối hiện đại */
+  --ma-shadow-focus: 0 0 0 3px var(--ma-focus-halo);
+  --ma-shadow-frame: 0 10px 25px -5px rgba(22, 19, 16, 0.08), 0 8px 10px -6px rgba(22, 19, 16, 0.04);
+  --ma-shadow-card: 0 2px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
+  --ma-shadow-card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.03);
+}
